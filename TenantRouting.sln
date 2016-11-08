@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{20BCEFE1-8541-4D43-B3C7-E0FA3405CA73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6BB5D4D1-E00C-4AF4-B43E-A44C3839C12D}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TenantRouting", "src\TenantRouting\TenantRouting.xproj", "{0BB51FE2-7206-409D-9764-30A852C629E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BB51FE2-7206-409D-9764-30A852C629E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BB51FE2-7206-409D-9764-30A852C629E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BB51FE2-7206-409D-9764-30A852C629E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BB51FE2-7206-409D-9764-30A852C629E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0BB51FE2-7206-409D-9764-30A852C629E1} = {20BCEFE1-8541-4D43-B3C7-E0FA3405CA73}
+	EndGlobalSection
+EndGlobal
